@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Space globe - Three.js</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="canvas_container"></div>
+
+<input id="modalToggle" class="hide" type="checkbox">
+<section class="modal">
+  <label class="btn btn-open" for="modalToggle">Open modal</label>
+  <div class="inside">
+    <label class="btn-close" for="modalToggle">X</label>
+    <p>Text goes here.</p>
+  </div>
+</section>
+
+<button id="fullscr">Go Fullscreen</button>
+
+<nav>
+  <div class="menu-btn">
+    <div class="line line--1"></div>
+    <div class="line line--2"></div>
+    <div class="line line--3"></div>
+  </div>
+
+  <div class="nav-links">
+    <a href="" class="link">Home</a>
+    <a href="" class="link">Contact</a>
+    <a href="" class="link">Calendar</a>
+    <a href="about.html" class="link">About</a>
+  </div>
+</nav>
+<!-- partial -->
+<script  src="./script1.js"></script>
+<script src='https://cdn.jsdelivr.net/npm/three@0.121.1/build/three.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/three@0.121.1/examples/js/controls/OrbitControls.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
